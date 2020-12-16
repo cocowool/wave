@@ -1,0 +1,7 @@
+menu:
+  首页: /
+  友情链接: /friend_links/
+  关于: /about/
+
+# 如果使用了百度站长工具，需要添加验证码
+baidu_verification: y4EEfl1oRM

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><% if( page.title ){ %><%= page.title %>-<% } %><%= config.title %></title>
+    <meta charset="utf-8">
+    <% if( theme.baidu_verification ) { %><meta name="baidu-site-verification" content="<%= theme.baidu_verification %>" /><% } %>
+    <% if( page.keywords ){ %><meta name="keywords" content="<%= page.keywords %>"><% }else{ %><meta name="keywords" content="<%= config.keywords %>"><% } %>
+    <% if( page.description ){ %><meta name="description" content="<%= page.description %>"><% }else{ %><meta name="description" content="<%= config.description %>"><% } %>
+</head>
+<body>
+    <%- body %>
+</body>
+</html>
