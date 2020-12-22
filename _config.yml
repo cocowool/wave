@@ -3,5 +3,9 @@ menu:
   友情链接: /friend_links/
   关于: /about/
 
+# 模板支持友情链接组件，链接配置在这里
+friend_links:
+  大江小浪: http://edulinks.cn
+
 # 如果使用了百度站长工具，需要添加验证码
 baidu_verification: y4EEfl1oRM
