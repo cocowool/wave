@@ -1,6 +1,8 @@
 menu:
   首页: /
-  友情链接: /friend_links/
+  # 友情链接: /friend_links/
+  Docker: /
+  Kubernetes: /
   关于: /about/
 
 # 模板支持友情链接组件，链接配置在这里
