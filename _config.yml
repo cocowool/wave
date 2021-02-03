@@ -1,13 +1,21 @@
 menu:
   首页: /
   # 友情链接: /friend_links/
-  Docker: /
-  Kubernetes: /
+  # Docker: /
+  # Kubernetes: /
   关于: /about/
 
 # 模板支持友情链接组件，链接配置在这里
 friend_links:
-  大江小浪: http://edulinks.cn
+  Python爬虫与数据挖掘: http://pdcfighting.com
+  yichen的信安知识库: https://www.yuque.com/hxfqg9
+  小狼的世界: http://cnblogs.com/cocowool
 
 # 如果使用了百度站长工具，需要添加验证码
 baidu_verification: y4EEfl1oRM
+
+# beian information
+beian:
+  enable: true
+  icp: 京ICP备15058613-2号
+  icp_link: https://beian.miit.gov.cn/

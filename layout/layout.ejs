@@ -32,16 +32,32 @@
             </div>
             <div class="blog-side col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="blog-profile">
-                    
+                    <%- partial('_partial/profile') -%>
+                </div>
+                <div class="blog-google-ads">
+                    <%- partial('_partial/google') -%>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid blog-footer">
         <div class="container">
+            <div class="row blog-friend-link">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <h3>友情链接</h3>
+                </div>
+                
+                <% if( theme.friend_links ) {
+                    for (name in theme.friend_links) { %>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <a href="<%= theme.friend_links[name] %>"><%= name %></a>
+                </div>
+                <%  }
+                } %>
+            </div>
             <div class="row">
                 <div class="blog-copyright">
-                    xx
+                    <p>&copy; 2020 - 2021 All rights reserved. <%= config.title %> <% if( theme.beian.enable ){ %> - <a href="<%= theme.beian.icp_link %>" target="_blank"><%= theme.beian.icp %></a><% } %></p>
                 </div>    
             </div>
         </div>
