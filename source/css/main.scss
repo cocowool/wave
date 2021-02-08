@@ -4,10 +4,50 @@
  */
 
 @import "variables";
+@import "markdown";
 
 .blog-header {
     border-bottom: 1px solid #ccc;
     box-shadow: 0 0 0.5rem rgba(0,0,0,0.15) !important;
+
+    .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.1);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    li.nav-item {
+        position: relative;
+
+        a {
+            color: #0a0a0a;
+        }
+
+        a:hover {
+            color: #076dd0;
+        }
+    }
+
+    li.nav-item:before {
+        content: "";
+        height: 0;
+        // width: 10px;
+        transition: all .4s cubic-bezier(.51,.92,.24,1.15);
+    }
+
+    li.nav-item:hover:before {
+        background: #076dd0;
+        bottom: 0;
+        height: 4px;
+        left: 3px;
+        width: 80%;
+        position: absolute;
+        right: -5px;
+        z-index: 1;
+    }
 }
 
 .blog-content {
@@ -48,6 +88,11 @@
                 border: 1px solid #ccc;
                 padding: 0.3rem 1rem;
                 margin: 0 0.2rem;
+            }
+
+            .page-number:hover, .extend:hover {
+                background-color: #333;
+                color: #fff;
             }
         }
     }
@@ -133,11 +178,28 @@
 
     .blog-about {
         .blog-about-title {
+            border-left: 5px solid #076dd0;
+            padding-left: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
 
+            h1 {
+                font-size: 2rem;
+            }
         }
 
         .blog-about-content {
             
+            h2 {
+                border-left: 5px solid #076dd0;
+                padding-left: 1rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;    
+            }
+
+            ul > li {
+                line-height: 150%;
+            }
         }
     }
 
@@ -174,8 +236,6 @@
     // }
 }
 
-
-
 .blog-footer {
     margin-top: 1rem;
     background-color: #3d3d3d;
@@ -202,6 +262,10 @@
         a {
             color: rgba(255,255,255,.5)
         }
+
+        a:hover {
+            color: #fff;
+        }
     }
 
     .blog-copyright {
@@ -209,3 +273,5 @@
         text-align: center;
     }
 }
+
+//Markdown 部分的样式
