@@ -13,4 +13,6 @@ Another Hexo theme based on Bootstrap v5.
 $ cd HEXO_PATH/themes
 $ git clone https://github.com/cocowool/wave.git
 $ npm install --save  hexo-renderer-sass
+$ cd ..
+$ hexo s
 ```
