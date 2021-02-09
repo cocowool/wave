@@ -19,3 +19,8 @@ beian:
   enable: true
   icp: 京ICP备15058613-2号
   icp_link: https://beian.miit.gov.cn/
+
+# 百度统计的代码
+baidu_stats:
+  enable: true
+  code: 0b19fdd3879484a2c43c9049772a6abe
