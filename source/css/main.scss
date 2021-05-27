@@ -226,6 +226,17 @@
         }
     }
 
+    .blog-side {
+        .blog-topic {
+            border: 1px solid #e5e8ed;
+            box-shadow: 0 2px 4px 0 rgba(3,27,78,0.06);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
     // .col-md-12, .col-sm-12, .col-xs-12 {
     //     .blog-profile {
     //         margin-top: 1rem;
