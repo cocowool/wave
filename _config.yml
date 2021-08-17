@@ -9,7 +9,7 @@ menu:
 friend_links:
   Python爬虫与数据挖掘: http://pdcfighting.com
   yichen的信安知识库: https://www.yuque.com/hxfqg9
-  苏卡卡的有底洞: blog.skk.moe
+  苏卡卡的有底洞: https://blog.skk.moe
   小狼的世界: http://cnblogs.com/cocowool
 
 # 如果使用了百度站长工具，需要添加验证码
@@ -20,6 +20,12 @@ beian:
   enable: true
   icp: 京ICP备15058613-2号
   icp_link: https://beian.miit.gov.cn/
+
+# Gongan beian information
+gongan:
+  enable: true
+  icp: 京公安网备案11010802035682号
+  icp_link: http://www.beian.gov.cn/portal/index.do
 
 # 百度统计的代码
 baidu_stats:
