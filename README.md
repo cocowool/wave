@@ -18,4 +18,4 @@ $ hexo s
 ```
 
 # Reference
-* []()
+* [node-sass安装遇到的错误](http://www.edulinks.cn/2021/07/27/20210727-node-sass-problem/)
