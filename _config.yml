@@ -31,7 +31,8 @@ gongan:
 # 百度统计的代码
 baidu_stats:
   enable: true
-  code: 0b19fdd3879484a2c43c9049772a6abe
+  # code: 0b19fdd3879484a2c43c9049772a6abe
+  code: 768e225ca43b028a6d15124a73b5c8d2
 
 # 百度文库内容开放平台的代码
 wenku:
