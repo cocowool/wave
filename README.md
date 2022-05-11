@@ -19,6 +19,8 @@ $ hexo s
 
 # Release
 
+* v0.0.2 Feature
+    * replace node-sass to dart-sass
 * 2022-05-11 v0.0.1 release
 
 # Reference
